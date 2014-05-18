@@ -1,0 +1,28 @@
+{
+  "name": "radian.js",
+  "version": "0.0.1",
+  "authors": [
+    "Matt Fletcher <naiveamoeba@gmail.com>"
+  ],
+  "description": "Radical Radial Data Visualisation",
+  "main": "lib/radial.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "radian",
+    "radial",
+    "raphael",
+    "graph",
+    "visualisation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

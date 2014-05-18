@@ -1,0 +1,31 @@
+{
+  "name": "radian.js",
+  "version": "0.0.1",
+  "description": "Radical Radial Data Visualisation",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^2.16.2",
+    "open": "0.0.5"
+  },
+  "scripts": {
+    "test": "node test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com//maffoobristol/radian.js"
+  },
+  "keywords": [
+    "radian",
+    "radial",
+    "raphael",
+    "graph",
+    "visualisation"
+  ],
+  "author": "Matt Fletcher",
+  "license": "ISC"
+}
