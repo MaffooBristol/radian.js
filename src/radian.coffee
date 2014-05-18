@@ -7,9 +7,9 @@ _radian = (window, Raphael) ->
   scale = 400
 
   dataURL = 'http://mysite.com/api/data.json'
-  element = '#pie'
-
-  r = Raphael element, element.height(), element.width()
+  element = document.getElementById 'wrapper'
+  console.log element
+  r = Raphael element, element.offsetHeight, element.offsetWidth
 
   r.customAttributes.arc = (xloc, yloc, value, total, R) ->
 
@@ -29,6 +29,8 @@ _radian = (window, Raphael) ->
         ["A", R, R, 0, +(alpha > 180), 1, x, y]
       ]
     path: path
+
+  xhr = new XMLHttpRequest()
 
   $.get dataURL, null, (data) ->
 
@@ -59,6 +61,7 @@ _radian = (window, Raphael) ->
 
 do (glob = @, factory = _radian) ->
   if typeof define is 'function' and define.amd
-    define ['Raphael'], (Raphael) -> factory glob, Raphael
+    define ['Raphael'], (Raphael) ->
+      return factory glob, Raphael
   else
-    factory glob, glob.Raphael
+    return factory glob, glob.Raphael
