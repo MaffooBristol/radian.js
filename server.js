@@ -7,4 +7,4 @@ connect().use(connect.static(__dirname)).listen(port);
 console.log('Connected on port ' + port);
 
 console.log('Opening browser...');
-open('http://localhost:' + port + '/test.html');
+open('http://localhost:' + port + '/test/test.html');
