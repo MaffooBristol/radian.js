@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Top Level",
+    "weight": "0",
+    "children": [
+      {
+        "name": "Human Resources",
+        "weight": "0",
+        "children": [
+          {
+            "name": "HR Director",
+            "weight": "0",
+            "children": [
+              {
+                "name": "Assistant HR Director",
+                "weight": "0",
+                "children": [
+                  {
+                    "name": "HR Policy",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "HR Programmes Office",
+                    "weight": "0",
+                    "children": [
+                      {
+                        "name": "Engagement and Inclusivity",
+                        "weight": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Occupational Health",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Recruitment Project",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Reward",
+                    "weight": "0"
+                  }
+                ]
+              },
+              {
+                "name": "Deputy HR Director",
+                "weight": "0",
+                "children": [
+                  {
+                    "name": "CIT",
+                    "weight": "0",
+                    "children": [
+                      {
+                        "name": "HR Communications",
+                        "weight": "0"
+                      },
+                      {
+                        "name": "MI",
+                        "weight": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "HR Operations",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "HR Services",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "HR Systems",
+                    "weight": "0",
+                    "children": [
+                      {
+                        "name": "Test workgroup",
+                        "weight": "0",
+                        "children": [
+                          {
+                            "name": "Data Integration  Team",
+                            "weight": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Director of POD",
+                "weight": "0",
+                "children": [
+                  {
+                    "name": "Academic Practice Learning and Teaching",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "DECS Training Development Office",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Leadership and Management Development",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Processes",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Researcher Development Team",
+                    "weight": "0"
+                  },
+                  {
+                    "name": "Staff Development Team",
+                    "weight": "0"
+                  }
+                ]
+              },
+              {
+                "name": "Engagement and Inclusivity",
+                "weight": "0"
+              },
+              {
+                "name": "HR Director's Office",
+                "weight": "0"
+              },
+              {
+                "name": "HR Recruitment Advisor",
+                "weight": "0"
+              },
+              {
+                "name": "Leadership",
+                "weight": "0"
+              },
+              {
+                "name": "MI",
+                "weight": "0"
+              },
+              {
+                "name": "Pensions",
+                "weight": "0",
+                "children": [
+                  {
+                    "name": "Pensions Auto-Enrolment",
+                    "weight": "0"
+                  }
+                ]
+              },
+              {
+                "name": "Performance Management",
+                "weight": "0"
+              },
+              {
+                "name": "Simitive Project",
+                "weight": "0"
+              },
+              {
+                "name": "Workforce Planning",
+                "weight": "0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
